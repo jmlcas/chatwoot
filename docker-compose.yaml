@@ -2,7 +2,7 @@ version: '3'
 
 services:
 
-base: &base
+  base: &base
     image: chatwoot/chatwoot:develop
     env_file: .env ## Change this file for customized env variables
     stdin_open: true # docker run -i
