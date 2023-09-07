@@ -32,7 +32,7 @@ services:
     command: ['bundle', 'exec', 'sidekiq', '-C', 'config/sidekiq.yml']
 
   postgres:
-    image: postgres:12
+    image: postgres:15
     restart: always
     ports:
       - '5432:5432'
