@@ -1,5 +1,4 @@
-# chatwoot
-Chatwoot - Chat - Docker compose
+# Chatwoot
 
 #Ejecutar primero este comando
 
@@ -9,8 +8,4 @@ docker-compose run --rm rails bundle exec rails db:chatwoot_prepare
 
 docker-compose up -d
 
-Ver en "localhost:3000"
-
-
-
-
+Ver en "http://localhost:3000"
