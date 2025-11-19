@@ -1,5 +1,3 @@
-version: '3'
-
 services:
 
   base: &base
@@ -54,3 +52,4 @@ services:
       - ./data/redis:/data
     ports:
       - '6379:6379'
+
