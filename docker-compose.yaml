@@ -42,7 +42,6 @@ services:
     environment:
       - POSTGRES_DB=chatwoot
       - POSTGRES_USER=postgres
-      # Please provide your own password.
       - POSTGRES_PASSWORD=p4ssw0rd
 
   redis:
@@ -59,5 +58,6 @@ volumes:
   storage_data:
   postgres_data:
   redis_data:
+
 
 
